@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/C_masa.css">
+
+    <title>Calculadora mesa</title>
+</head>
+<body>
+    <div class="padre">
+        <h1>Calculadora de Masa</h1>
+        <input type="number" id="Txt_cm" placeholder="Digita tu Altura">
+        <input type="number" id="Txt_kg" placeholder="Digita tu peso">
+        <button id="Calcular" onclick="Calcular()">Calacular</button>
+        <button id="borrar" onclick="borrar()">Borrar</button>
+        <p>
+            Resultado:
+            <span id="Mostrar"></span>
+        </p>
+        <p id="mostrarImc"></p>
+    </div>
+</body>
+<script src="/Logic/C_masa.js"></script>
+</html>

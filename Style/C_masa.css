@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #556270;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+
+}
+
+.padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 50px auto;
+    box-shadow: 50px 5px 10px black;
+    font-style: oblique;
+}
+
+h1 {
+    color: white;
+}
+
+input,
+button {
+    padding: 10px;
+    width: 100%;
+    /* Hace que los inputs midan lo mismo */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+button {
+    background-color: #556270;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(10deg, #3a5f6f, #243757);
+}
+
+p {
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+}
