@@ -8,7 +8,7 @@ body {
     height: 100%;
     width: 100%;
     background-size: contain;
-
+    
 }
 
 .padre {
@@ -23,8 +23,21 @@ body {
     margin: 50px auto;
     box-shadow: 50px 5px 10px black;
     font-style: oblique;
+    max-width: 200px;
+    animation: efecto infinite 1s;
 }
+@keyframes efecto {
+    0%{
+        box-shadow: 20px 5px 10px #D8F999;
+    }
+    50%{
+        box-shadow: 20px 50px 10px white;
+    }
+    100%{
+        box-shadow: 30px 59px 10px black;
+    }
 
+}
 h1 {
     color: white;
 }
